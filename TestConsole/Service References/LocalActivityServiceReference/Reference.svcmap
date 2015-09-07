@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6d024392-71a4-4283-9878-e9e4ca6b7789" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8338/ActivityDetailsService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ActivityDetailsService.xsd" MetadataType="Schema" ID="cdf5c60b-09e9-4e3e-8a03-eea617f4ef65" SourceId="1" SourceUrl="http://localhost:8338/ActivityDetailsService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ActivityDetailsService1.xsd" MetadataType="Schema" ID="f3a9b19b-1e2c-4cd2-9fe3-244b1c1a2406" SourceId="1" SourceUrl="http://localhost:8338/ActivityDetailsService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ActivityDetailsService2.xsd" MetadataType="Schema" ID="174c780a-9f29-4431-b5a6-c206d80efdee" SourceId="1" SourceUrl="http://localhost:8338/ActivityDetailsService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ActivityDetailsService.disco" MetadataType="Disco" ID="67ae8f24-8b92-4b9d-9a0f-304e145371f4" SourceId="1" SourceUrl="http://localhost:8338/ActivityDetailsService.svc?disco" />
+    <MetadataFile FileName="ActivityDetailsService.wsdl" MetadataType="Wsdl" ID="8122b9f8-4d95-464f-895e-14764da28d1a" SourceId="1" SourceUrl="http://localhost:8338/ActivityDetailsService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
